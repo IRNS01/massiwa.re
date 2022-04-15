@@ -1,0 +1,66 @@
+/* ***************PAGE**************** */
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* ***************HEADER**************** */
+
+header nav {
+    overflow: hidden;
+    background-color: #C0C0C0;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header nav ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:#000000;
+}
+
+header nav ul li.btn a{
+    background-color: #C0C0C0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+header nav ul li.btn:hover a{
+    background-color: #888888;
+}
+
+#compte {
+    float: right;
+    padding-right: 10px;
+}
+
+/* ***************SECTION**************** */
+
+section h1 {
+    text-align: center;
+    padding: 18px 16px;
+}
+
+#pdf{
+    text-align: center;
+}
+
+/* ***************FOOTER**************** */
+
+footer {
+    background-color: gray;
+    text-align: center;
+}
+footer form {
+    text-align: center;
+}
